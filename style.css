@@ -15,6 +15,9 @@ p {
 	font-family: calibri;
 	color: lavender;
 }
+p:first-letter{
+	font-size: 20;
+}
 li {
 	font-family: calibri;
 	color: lavender;
@@ -22,10 +25,20 @@ li {
 a {
 	font-family: calibri;
 	color: slateblue;
+	text-decoration: none;
+
+}
+a:hover{
+	font-family: calibri;
+	color: slateblue;
+	text-decoration: underline;
 }
 em {
 	color: orchid;
 }
 strong{
 	color: plum;
+}
+.Underline:hover .Underline-content{
+	display: block;
 }
